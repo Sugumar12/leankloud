@@ -64,6 +64,7 @@ def findClassTopperFunction(studentMarks):
 
 #Main function . calls all other functions
 def mainFunction():
+    
 
     allData=csvReaderFunction('Student_marks_list.csv')
     subjectNames=allData[0]
